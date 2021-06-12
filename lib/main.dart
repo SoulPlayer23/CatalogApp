@@ -1,3 +1,4 @@
+import 'package:catalog_app/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -7,11 +8,6 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Material(
-      child: Center(
-        child: Text('Catalog app'),
-      ),
-    ));
+    return MaterialApp(home: HomePage());
   }
 }
