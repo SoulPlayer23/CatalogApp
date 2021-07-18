@@ -1,7 +1,6 @@
 import 'package:catalog_app/models/catalog.dart';
 import 'package:catalog_app/utils/routes.dart';
 import 'package:catalog_app/widgets/home_widgets/catalog_header.dart';
-import 'package:catalog_app/widgets/home_widgets/catalog_image.dart';
 import 'package:catalog_app/widgets/home_widgets/catalog_list.dart';
 import 'dart:convert';
 import 'package:catalog_app/widgets/themes.dart';
@@ -39,11 +38,11 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: MyTheme.creamColor,
+        backgroundColor: Theme.of(context).canvasColor,
         floatingActionButton: FloatingActionButton(
           onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
           child: Icon(CupertinoIcons.cart),
-          backgroundColor: MyTheme.darkBluishColor,
+          backgroundColor: context.theme.buttonColor,
         ),
         body: SafeArea(
           child: Container(
