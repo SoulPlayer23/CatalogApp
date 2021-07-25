@@ -1,5 +1,6 @@
 import 'package:catalog_app/models/cart.dart';
 import 'package:catalog_app/models/catalog.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:velocity_x/velocity_x.dart';
 
 class MyStore extends VxStore {

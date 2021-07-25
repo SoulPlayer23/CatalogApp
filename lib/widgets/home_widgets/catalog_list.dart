@@ -1,9 +1,11 @@
+import 'package:flutter/material.dart';
+// ignore: import_of_legacy_library_into_null_safe
+import 'package:velocity_x/velocity_x.dart';
+
+import 'package:catalog_app/models/catalog.dart';
 import 'package:catalog_app/screens/home_detail_page.dart';
 import 'package:catalog_app/widgets/home_widgets/add_to_cart.dart';
 import 'package:catalog_app/widgets/home_widgets/catalog_image.dart';
-import 'package:flutter/material.dart';
-import 'package:catalog_app/models/catalog.dart';
-import 'package:velocity_x/velocity_x.dart';
 
 class CatalogList extends StatelessWidget {
   const CatalogList({Key? key}) : super(key: key);
