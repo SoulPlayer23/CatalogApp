@@ -1,16 +1,15 @@
 # catalog_app
 
-A new Flutter project.
+A catalog app showing various products to browse through
 
-## Getting Started
+## UI
 
-This project is a starting point for a Flutter application.
+![Screenshot_1631188869](https://user-images.githubusercontent.com/60187111/132682569-12d8a95b-a86f-417d-a64a-c636dc435369.png)
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_1631188875](https://user-images.githubusercontent.com/60187111/132682619-df86709c-55b6-485e-9dc2-baa31a9c5c8d.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![Screenshot_1631188884](https://user-images.githubusercontent.com/60187111/132682646-2626e58f-03ed-4d9a-9c72-0183fa489959.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1631188889](https://user-images.githubusercontent.com/60187111/132682666-fcce5438-6c39-4568-a6f1-1dd98899a93d.png)
+
+
